@@ -42,7 +42,7 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           application_name: docker_test_project
           environment_name: Dockertestproject-env
-          version_label: 4
+          version_label: 5
           region: us-east-2
           deployment_package: deploy.zip
           wait_for_environment_recovery: 120
